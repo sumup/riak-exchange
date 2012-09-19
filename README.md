@@ -1,3 +1,11 @@
+NOTE: This is a modified version of riak-exchange in wich
+      instead of "headers" we are using  "reply_to" property 
+      for sending riak bucket/key info. In our routing scheme
+      the "reply_to" field is the last part of the RoutingKey 
+
+      The original documentation is bellow:
+----------------------------------------------------------------------
+
 # RabbitMQ Riak Exchange
 
 Latest tagged version works with RabbitMQ 2.8.1 and Riak 1.0 (Riak Erlang client ver 1.2.1).
